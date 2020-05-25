@@ -1,0 +1,48 @@
+body {
+  background-color: lightblue;
+}
+
+h1,
+h3 {
+  color: blue;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium";
+}
+
+h3,
+p {
+  font-family: "Trebuchet MS";
+}
+
+#square-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: teal;
+  padding: 30px;
+}
+
+.square {
+  background-color: blue;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.redSquare {
+  background-color: red;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.whiteSquare {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
